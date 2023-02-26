@@ -17,6 +17,8 @@ function App() {
     result.Response === "False" ? setShowError(result.Error) : setShowError("");
   };
 
+
+
   const movieSelect = (movie) => {
     setMovieList([...movieList, movie]);
     setMovie({});
